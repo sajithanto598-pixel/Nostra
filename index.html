@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nostra</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Top Advertisement -->
+
+<section class="top-ad" id = "topAd">
+<h3>Sign Up and GET 20% OFF for your first order</h3>
+
+<svg class="close-icon" onclick="closeAd()" xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round"
+d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>
+</section>
+
+<!-- Navbar -->
+
+<section class="navbar">
+
+    <h1>NOSTRA</h1>
+
+    <!-- DESKTOP MENU -->
+    <div class="navbar--s1" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="#new-arrivals">New Arrival</a>
+        <a href="#most-wanted">Most Wanted</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+</section>
+
+<section class="slider">
+
+<div class="slides">
+
+  <div class="slide" style="background-image: url('img/sld1.png');">
+    <div class="overlay"></div>
+    <div class="slider-content">
+      <h1>Level up your style</h1>
+      <p>Summer Collections</p>
+      <button class="slider-btn">Shop Now →</button>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('img/sld1.png');">
+    <div class="overlay"></div>
+    <div class="slider-content">
+      <h1>Upgrade your wardrobe</h1>
+      <p>New Arrivals</p>
+      <button class="slider-btn">Shop Now →</button>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('img/sld1.png');">
+    <div class="overlay"></div>
+    <div class="slider-content">
+      <h1>Fresh looks everyday</h1>
+      <p>Trending Styles</p>
+      <button class="slider-btn">Shop Now →</button>
+    </div>
+  </div>
+
+</div>
+
+  <!-- Arrows -->
+  <div class="arrow left" onclick="prevSlide()">❮</div>
+  <div class="arrow right" onclick="nextSlide()">❯</div>
+
+  <!-- Dots -->
+  <div class="dots">
+    <span class="dot active" onclick="goToSlide(0)"></span>
+    <span class="dot" onclick="goToSlide(1)"></span>
+    <span class="dot" onclick="goToSlide(2)"></span>
+  </div>
+
+</section>
+
+
+
+    <!-- BRANDS SECTION -->
+<section class="brands">
+
+    <h2>Brands</h2>
+
+    <div class="brand-container">
+
+        <div class="brand">
+            <img src="img/puma.png">
+            <p>Puma</p>
+        </div>
+
+        <div class="brand">
+            <img src="img/adidas.png">
+            <p>Adidas</p>
+        </div>
+
+        <div class="brand">
+            <img src="img/simnple.png">
+            <p>Simple</p>
+        </div>
+
+        <div class="brand">
+            <img src="img/leaves.png">
+            <p>Leaves</p>
+        </div>
+
+        <div class="brand">
+            <img src="img/behance.png">
+            <p>Behance</p>
+        </div>
+
+        <div class="brand">
+            <img src="img/ywitch.png">
+            <p>Twitch</p>
+        </div>
+
+        <div class="brand">
+            <img src="img/leaves.png">
+            <p>Leaves</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--customer review-->
+
+<section class="review">
+    <div class="review-header">
+        <h1>We Provide Best <br> Customer Experiences</h1>
+        <p>|| We ensure that our customer have the best shopping experience</p>
+    </div>
+
+    <div class="rvw">
+        <!-- Card 1 -->
+        <div class="rvw-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(2, 2, 2)" d="M480 96C515.3 96 544 124.7 544 160L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 160C96 124.7 124.7 96 160 96L480 96zM160 144C151.2 144 144 151.2 144 160L144 480C144 488.8 151.2 496 160 496L480 496C488.8 496 496 488.8 496 480L496 160C496 151.2 488.8 144 480 144L160 144zM390.7 233.9C398.5 223.2 413.5 220.8 424.2 228.6C434.9 236.4 437.3 251.4 429.5 262.1L307.4 430.1C303.3 435.8 296.9 439.4 289.9 439.9C282.9 440.4 276 437.9 271.1 433L215.2 377.1C205.8 367.7 205.8 352.5 215.2 343.2C224.6 333.9 239.8 333.8 249.1 343.2L285.1 379.2L390.7 234z"/></svg>
+            <h3>Original Products</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="rvw-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(2, 2, 2)" d="M528 320C528 205.1 434.9 112 320 112C205.1 112 112 205.1 112 320C112 434.9 205.1 528 320 528C434.9 528 528 434.9 528 320zM64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576C178.6 576 64 461.4 64 320zM241.3 383.4C256.3 399 282.4 416 320 416C357.6 416 383.7 399 398.7 383.4C407.9 373.8 423.1 373.5 432.6 382.7C442.1 391.9 442.5 407.1 433.3 416.6C411.2 439.6 373.3 464 320 464C266.7 464 228.8 439.6 206.7 416.6C197.5 407 197.8 391.8 207.4 382.7C217 373.6 232.2 373.8 241.3 383.4zM208 272C208 254.3 222.3 240 240 240C257.7 240 272 254.3 272 272C272 289.7 257.7 304 240 304C222.3 304 208 289.7 208 272zM400 240C417.7 240 432 254.3 432 272C432 289.7 417.7 304 400 304C382.3 304 368 289.7 368 272C368 254.3 382.3 240 400 240z"/></svg>
+            <h3>Satisfaction Guarantee</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="rvw-card">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(2, 2, 2)" d="M598.6 118.6C611.1 106.1 611.1 85.8 598.6 73.3C586.1 60.8 565.8 60.8 553.3 73.3L361.3 265.3L326.6 230.6C322.4 226.4 316.6 224 310.6 224C298.1 224 288 234.1 288 246.6L288 275.7L396.3 384L425.4 384C437.9 384 448 373.9 448 361.4C448 355.4 445.6 349.6 441.4 345.4L406.7 310.7L598.7 118.7zM373.1 417.4L254.6 298.9C211.9 295.2 169.4 310.6 138.8 341.2L130.8 349.2C108.5 371.5 96 401.7 96 433.2C96 440 103.1 444.4 109.2 441.4L160.3 415.9C165.3 413.4 169.8 420 165.7 423.8L39.3 537.4C34.7 541.6 32 547.6 32 553.9C32 566.1 41.9 576 54.1 576L227.4 576C266.2 576 303.3 560.6 330.8 533.2C361.4 502.6 376.7 460.1 373.1 417.4z"/></svg>
+            <h3>New Arrival Everyday</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="rvw-card">
+    
+            <h3>Fast & Free Shipping</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+
+
+<!--New Arrival-->
+<section id ="new-arrivals">
+  <h2>New Arrivals</h2>
+
+  <div class="new-arr">
+
+    <div class="image-card">
+      <img src="img/new1.webp">
+      <button>Shop Now →</button>
+    </div>
+
+    <div class="image-card">
+      <img src="img/new2.webp">
+      <button>Shop Now →</button>
+    </div>
+
+    <div class="image-card">
+      <img src="img/new3.webp">
+      <button>Shop Now →</button>
+    </div>
+
+    <div class="image-card">
+      <img src="img/new4.webp">
+      <button>Shop Now →</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- MOST WANTED -->
+
+<section id ="most-wanted">
+
+<h1 class="section-title">Most Wanted</h1>
+
+<div class="most-wanted-container">
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt.jpg">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt a.webp">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt4.jpg">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt3.jpg">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt b.webp">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt c.webp">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt d.webp">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt e.webp">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<span class="sale-badge">Sale</span>
+<img src="img/shirt f.webp">
+<button class="add-cart">Add to Cart</button>
+</div>
+
+
+</div>
+
+<div class="limited-offer">
+
+    <div class="limited-img">
+        <img src="img/limited.jpg" alt="Limited Offer">
+    </div>
+
+    <div class="LMtxt">
+        <h1>Limited Offer</h1>
+        <p>35% OFF on this for the first 30 Customers</p>
+        <button class="shop-now">Shop Now →</button>
+    </div>
+
+</div>
+
+</section>
+
+<!--NEWS LETTER-->
+<section class = "newsletter">
+    <h1>Join Our News Letter</h1>
+    <p>Signup for email Newspaper to get exclusive discounts,updates and more</p>
+    <input type = "text" class = "NL">
+    
+    <button class = "subscribe-btn">Subscribe → </button>
+
+</section>
+
+
+
+<!-- Footer -->
+
+<section class="footer"><section class="footer">
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-col">
+            <h1>NOSTRA</h1>
+            <p>
+                Nostra is your go-to destination for modern fashion and everyday style. 
+                We bring you curated collections that combine comfort, quality, and trend — 
+                helping you upgrade your wardrobe effortlessly.
+            </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#most-wanted">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+        </div>
+
+        <!-- SUPPORT -->
+        <div class="footer-col">
+            <h3>Support</h3>
+            <a href="#">FAQs</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p>📍 Coimbatore, Tamil Nadu</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 support@nostra.com</p>
+        </div>
+
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-bottom">
+        <div class="social-icons">
+            <span>📷</span>
+            <span>📘</span>
+            <span>🐦</span>
+        </div>
+
+        <p>© 2026 Nostra. All rights reserved.</p>
+    </div>
+
+</section>
+<script src = "main.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>

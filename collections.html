@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nostra</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Top Advertisement -->
+
+<section class="top-ad" id ="topAd">
+<h3>Sign Up and GET 20% OFF for your first order</h3>
+
+<svg class="close-icon" onclick="closeAd()" xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round"
+d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>
+</section>
+
+<!-- Navbar -->
+
+<section class="navbar">
+
+    <h1>NOSTRA</h1>
+
+    <!-- DESKTOP MENU -->
+    <div class="navbar--s1" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="#new-arrivals">New Arrival</a>
+        <a href="#most-wanted">Most Wanted</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+</section>
+
+
+
+<section class="collection">
+
+    <!-- LEFT FILTER -->
+    <div class="filter">
+        <h2>Occasion</h2>
+        <label><input type="checkbox"> Summer</label>
+        <label><input type="checkbox"> Party</label>
+        <label><input type="checkbox"> Beach</label>
+
+        <h2>Colors</h2>
+        <label><input type="checkbox"> Red</label>
+        <label><input type="checkbox"> Blue</label>
+        <label><input type="checkbox"> White</label>
+        <label><input type="checkbox"> Green</label>
+
+        <h2>Arrivals</h2>
+        <label><input type = "checkbox">New</label>
+        <label><input type = "checkbox">Old</label>
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="products">
+
+        <!-- SEARCH -->
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+            <path fill="rgb(5, 5, 5)" d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z"/>
+        </svg>
+        </div>
+
+        <!-- PRODUCT GRID -->
+        <div class="product-grid">
+
+            <div class="card" data-name ="Floral Summer Shirt"  data-category="beach white new">
+                <img src="img/cim1.avif">
+                <h3>Floral Summer Shirt</h3>
+                <p>₹220</p>
+            </div>
+
+            <div class="card"  data-name ="Summer Green"  data-category="white old">
+                <img src="img/cim 2.avif">
+                <h3>Summer Green</h3>
+                <p>₹260</p>
+            </div>
+
+            <div class="card"  data-name ="lion Shirt"  data-category="white new">
+                <img src="img/cim 3.avif">
+                <h3>lion Shirt</h3>
+                <p>₹399</p>
+            </div>
+
+            <div class="card"  data-name ="double pocke Shirt"  data-category="white new">
+                <img src="img/cim4.avif">
+                <h3>double pocket Shirt</h3>
+                <p>₹220</p>
+            </div>
+
+            <div class="card" data-name ="neon blue Shirt"  data-category="party blue old">
+                <img src="img/cim5.avif">
+                <h3>Neon blue shirt</h3>
+                <p>₹260</p>
+            </div>
+
+            <div class="card"  data-name ="blue formal Shirt"  data-category="blue old">
+                <img src="img/cim6.avif">
+                <h3>blue formal Shirt</h3>
+                <p>₹399</p>
+            </div>
+
+                <div class="card"  data-name ="Green striped Shirt"  data-category="summer green new">
+                <img src="img/cim7.avif">
+                <h3>Green Stripped Shirt</h3>
+                <p>₹220</p>
+            </div>
+
+            <div class="card"  data-name ="FLX Summer Shirt"  data-category="party white new">
+                <img src="img/cim8.avif">
+                <h3> FLX Summer Green</h3>
+                <p>₹260</p>
+            </div>
+
+            <div class="card"  data-name ="jean  Shirt"  data-category="summer blue new">
+                <img src="img/cim9.avif">
+                <h3>jean  Shirt</h3>
+                <p>₹399</p>
+            </div>
+
+            <div class="card"  data-name ="pink flash"  data-category="summer red new">
+                <img src="img/cim10.avif">
+                <h3>pink flash</h3>
+                <p>₹220</p>
+            </div>
+
+            <div class="card"  data-name ="green fade Shirt"  data-category="beach green new">
+                <img src="img/cim111.avif">
+                <h3>Green fade</h3>
+                <p>₹260</p>
+            </div>
+
+            <div class="card"  data-name ="checked hoodie"  data-category="party white new">
+                <img src="img/cim12.avif">
+                <h3>chechked hoodie</h3>
+                <p>₹399</p>
+            </div>
+
+            <!-- Add more cards -->
+        </div>
+
+    </div>
+</section>
+
+
+
+<!--NEWS LETTER-->
+<section class = "newsletter">
+    <h1>Join Our News Letter</h1>
+    <p>Signup for email Newspaper to get exclusive discounts,updates and more</p>
+    <input type = "text" class = "NL">
+    
+    <button class = "subscribe-btn">Subscribe → </button>
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer"><section class="footer">
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-col">
+            <h1>NOSTRA</h1>
+            <p>
+                Nostra is your go-to destination for modern fashion and everyday style. 
+                We bring you curated collections that combine comfort, quality, and trend — 
+                helping you upgrade your wardrobe effortlessly.
+            </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#most-wanted">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+        </div>
+
+        <!-- SUPPORT -->
+        <div class="footer-col">
+            <h3>Support</h3>
+            <a href="#">FAQs</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p>📍 Coimbatore, Tamil Nadu</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 support@nostra.com</p>
+        </div>
+
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-bottom">
+        <div class="social-icons">
+            <span>📷</span>
+            <span>📘</span>
+            <span>🐦</span>
+        </div>
+
+        <p>© 2026 Nostra. All rights reserved.</p>
+    </div>
+
+</section>
+
+
+<script src="main.js"></script>
+</body>

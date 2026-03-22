@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Nostra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="navbar">
+
+    <h1>NOSTRA</h1>
+
+    <!-- DESKTOP MENU -->
+    <div class="navbar--s1" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="#new-arrivals">New Arrival</a>
+        <a href="#most-wanted">Most Wanted</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+
+    <div class="contact-container">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Have questions or feedback? We’re here to help you anytime.</p>
+
+            <div class="info-box">
+                <h4>📍 Address</h4>
+                <p>Coimbatore, Tamil Nadu, India</p>
+            </div>
+
+            <div class="info-box">
+                <h4>📞 Phone</h4>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="info-box">
+                <h4>📧 Email</h4>
+                <p>support@nostra.com</p>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE FORM -->
+        <div class="contact-form">
+            <h2>Send Message</h2>
+
+            <form id="contactForm">
+
+                <input type="text" id="name" placeholder="Your Name">
+                <small class="error" id="nameError"></small>
+
+                <input type="email" id="email" placeholder="Your Email">
+                <small class="error" id="emailError"></small>
+
+                <textarea id="message" placeholder="Your Message" rows="5"></textarea>
+                <small class="error" id="messageError"></small>
+
+                <button type="submit">Send Message →</button>
+
+                <p class="success" id="successMsg"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer"><section class="footer">
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-col">
+            <h1>NOSTRA</h1>
+            <p>
+                Nostra is your go-to destination for modern fashion and everyday style. 
+                We bring you curated collections that combine comfort, quality, and trend — 
+                helping you upgrade your wardrobe effortlessly.
+            </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#most-wanted">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+        </div>
+
+        <!-- SUPPORT -->
+        <div class="footer-col">
+            <h3>Support</h3>
+            <a href="#">FAQs</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p>📍 Coimbatore, Tamil Nadu</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 support@nostra.com</p>
+        </div>
+
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-bottom">
+        <div class="social-icons">
+            <span>📷</span>
+            <span>📘</span>
+            <span>🐦</span>
+        </div>
+
+        <p>© 2026 Nostra. All rights reserved.</p>
+    </div>
+
+</section>
+<script src="main.js"></script>
+
+</body>
+</html>
